@@ -1,0 +1,374 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+
+img{
+  width: 200px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Header Secton starts */
+
+header{
+  background-color: #dbe0fd;
+}
+
+.flex_counter{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Nav Side starts */
+
+nav{
+  margin-left: -340px;
+  margin-top: 15px;
+}
+
+nav .navbar{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+nav .navbar li{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.drop_menu{
+  display: none;
+}
+
+.drop_home:hover> .drop_menu{
+  position: absolute;
+  background-color: white;
+  display: block;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.drop_menu:hover{
+  position: absolute;
+}
+
+
+
+/* Nav Side ends */
+
+/* Image Side starts */
+
+.header_image img{
+  width: 150px;
+  margin: 10px;
+  display: inline;
+}
+
+/* Image Side ends */
+
+/* Icons Side starts */
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  flex-wrap: wrap;
+  justify-self: start;
+}
+
+.icons_left{
+  display: flex;
+  flex-direction: row;
+  border-right: 2px solid black;
+  padding: 5px;
+  height: 20px;
+  flex-wrap: wrap;
+}
+
+.icons_right{
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.icons_left ul li{
+  display: inline;
+  padding: 6px;
+}
+
+.icons_right ul li{
+  display: inline;
+  padding: 6px;
+}
+
+/* Icons Side ends */
+
+/* Header Secton ends */
+
+
+
+/* Intro Section starts */
+
+#intro_section{
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.intro_name{
+  font-weight: normal;
+  color: #df4e61;
+}
+
+.one_intro{
+  margin: 10px;
+  margin-bottom: 80px;
+  width: 320px;
+}
+
+#left_intro img{
+  width: 250px;
+}
+
+#right_intro img{
+  width: 250px;
+}
+
+.one_intro> div{
+  margin: 20px;
+}
+
+.intro_title{
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.intro_title:hover{
+  color: #df4e61;
+}
+
+#center_intro{
+  width: 700px;
+  margin-top: 20px;
+}
+
+.center img{
+  width: 650px;
+}
+
+#center_intro> div{
+  margin: 20px;
+  margin-top: 0px;
+}
+
+/* Intro Section ends */
+
+/* Last Posts Section starts */
+
+#last_posts_section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px;
+  flex-wrap: wrap;
+}
+
+/* Left Side of Last Posts Section starts */
+
+.one_left_side_last_post{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.one_left_side_last_post> div{
+  margin: 10px;
+}
+
+.last_posts_section_img {
+  position: relative;
+  overflow: hidden;
+  width: 370px;
+  margin: 20px;
+}
+
+.last_posts_section_img img{
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  height: auto;
+  transform: scale(1);
+  width: 370px;
+}
+
+.last_posts_section_img img:hover{
+  transform: scale(1.1);
+}
+
+.last_posts_section_paragraph{
+  width: 400px;
+}
+
+.last_posts_section_paragraph> div{
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.last_posts_section_subject h3{
+  color: grey;
+  font-weight: normal;
+}
+
+.last_posts_section_subject a{
+  color: #df4e61;
+}
+
+.last_posts_section_title a{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.last_posts_section_date h3{
+  font-weight: normal;
+  color: grey;
+  font-weight: 10px;
+}
+
+.last_posts_section_subject:hover a{
+  color: grey;
+}
+
+.last_posts_section_title:hover a{
+  color: grey;
+}
+
+.last_posts_section_p p{
+  color: grey;
+  font-size: 18px;
+}
+
+#heart{
+  color: black;
+  font-size: 15px
+}
+
+#heart:hover{
+  color: #df4e61;
+}
+
+span{
+  color: #df4e61;
+}
+
+/* Left Side of Last Posts Section ends */
+
+/* Right Side of Last Posts Section starts */
+
+#right_side_last_posts{
+  display: flex;
+  flex-direction: column;
+}
+
+#right_side_last_posts> div{
+  width: 330px;
+}
+
+.right_side_image img{
+  width: 330px;
+  margin-bottom: 30px;
+}
+
+.latest_post_btn{
+  color: black;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px dashed black;
+  border-left: none;
+  border-top: none;
+}
+
+.latest_image img{
+  width: 300px;
+  margin: 20px;
+}
+
+.latest_post{
+  width: 340px;
+  border: 1px dashed black;
+}
+
+.latest_post_paragraph{
+  margin: 20px;
+  margin-top: 0;
+}
+
+.latest_post_paragraph a{
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.latest_post_paragraph a:hover{
+  color: #df4e61;
+}
+
+.latest_post_paragraph p{
+  color: grey;
+}
+
+.last_post_page{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.last_post_page> a{
+  display: block;
+  width: 2px;
+  height: 2px;
+  border: 1px dashed black;
+  border-radius: 50%;
+  padding: 2px;
+  margin: 3px;
+  margin-bottom: 20px;
+}
+
+.last_post_page> a:hover{
+  background-color: black;
+}
+
+/* Right Side of Last Posts Section ends */
+/* Last Posts Section ends */
+
+/* Posts and Users Section starts */
+
+#posts_users_section{
+  background: #f2f2f2;
+}
+
+
+
+
+/* Posts and Users Section ends */

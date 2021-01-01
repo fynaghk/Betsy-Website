@@ -4,25 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/style.css">
   <title>Betsy</title>
 </head>
 <body>
   <!-- Header Section starts -->
-  <header>
-    <div>
+  <header id="header">
+    <div class="flex_counter">
       <div>
-        <figure>
+        <figure class="header_image">
           <a href="#"><img src="../images/betsyGrey.png" alt=""></a>
         </figure>
       </div>
 
       <div>
         <nav>
-          <ul>
-            <li><a href="#">HOME</a>
-              <div>
-                <ul>
+          <ul class="navbar">
+            <li class="drop_home"><a href="#">HOME</a>
+              <div class="drop_menu">
+                <ul class="drop_down">
                   <li><a href="#">HOME 2</a></li>
                   <li><a href="#">HOME 3</a></li>
                 </ul>
@@ -30,21 +30,21 @@
             </li>
 
             <li><a href="#">POST FORMATS</a>
-              <div>
-                <ul>
+              <div class="drop_menu">
+                <ul class="drop_down">
                   <li><a href="#">STANDARD</a></li>
                   <li><a href="#">GALLERY</a></li>
                   <li><a href="#">AUDIO</a>
                     <div>
-                      <ul>
+                      <ul class="drop_down">
                         <li><a href="">UPLOAD</a></li>
                         <li><a href="">EMBED</a></li>
                       </ul>
                     </div>
                   </li>
                   <li><a href="#">VIDEO</a>
-                    <div>
-                      <ul>
+                    <div class="drop_menu">
+                      <ul class="drop_down">
                         <li><a href="">UPLOAD</a></li>
                         <li><a href="">EMBED</a></li>
                       </ul>
@@ -57,8 +57,8 @@
             </li>
 
             <li><a href="#">SHOP</a>
-              <div>
-                <ul>
+              <div class="drop_menu">
+                <ul class="drop_down">
                   <li><a href="#">CART</a></li>
                   <li><a href="#">CHECKOUT</a></li>
                   <li><a href="#">MY ACCOUNT</a></li>
@@ -73,24 +73,24 @@
         </nav>
       </div>
 
-      <div>
-        <div>
+      <div class="icons">
+        <div class="icons_left">
           <ul>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-            <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-            <li><a href="#"><i class="fab fa-spotify"></i></a></li>
+            <li><a href="#" style="color: black; font-size: 15px"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" style="color: black; font-size: 15px"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" style="color: black; font-size: 15px"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#" style="color: black; font-size: 15px"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a href="#" style="color: black; font-size: 15px"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#" style="color: black; font-size: 15px"><i class="fab fa-vimeo-v"></i></a></li>
+            <li><a href="#" style="color: black; font-size: 15px"><i class="fab fa-spotify"></i></a></li>
           </ul>
         </div>
 
-        <div>
+        <div class="icons_right">
           <ul>
-            <li><a href="#"><i class="fas fa-search"></i></a></li>
-            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-            <li><a href="#"><i class="fas fa-bars"></i></a></li>
+            <li><a href="#" style="color: black; font-size: 15px"><i class="fas fa-search"></i></a></li>
+            <li><a href="#" style="color: black; font-size: 15px"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="#" style="color: black; font-size: 15px"><i class="fas fa-bars"></i></a></li>
           </ul>
         </div>
       </div>
@@ -102,29 +102,29 @@
   <main>
     <!-- Intro Section starts -->
     <section>
-      <div>
-        <div>
-          <div>
+      <div id="intro_section">
+        <div id="left_intro">
+          <div class="one_intro">
             <div>
               <figure>
-                <a href="#"><img src="./images/travel.png" alt=""></a>
+                <a href="#"><img src="../images/home.png" alt=""></a>
               </figure>
             </div>
 
             <div>
-              <h3><a href="#">Food</a></h3>
+              <a class="intro_name" href="#">Food</a>
             </div>
 
             <div>
-              <h1><a href="#">Reasons Why Travel Is Getting More Popular In The Past Decade</a></h1>
+              <a href="#" class="intro_title" >Reasons Why Travel Is Getting More Popular In The Past Decade</a>
             </div>
 
             <div>
-              <p>October 15, 2019</p>
+              <p class="intro_name">October 15, 2019</p>
             </div>
           </div>
 
-          <div>
+          <div class="one_intro">
             <div>
               <figure>
                 <a href="#"><img src="../images/reading.png" alt=""></a>
@@ -132,41 +132,41 @@
             </div>
 
             <div>
-              <h3><a href="#">Travel</a></h3>
+              <a class="intro_name" href="#">Travel</a>
             </div>
 
             <div>
-              <h1><a href="#">The Most Common Mistakes People Make With Reading</a></h1>
+              <a href="#" class="intro_title" >The Most Common Mistakes People Make With Reading</a>
             </div>
 
             <div>
-              <p>October 15, 2019</p>
+              <p class="intro_name">October 15, 2019</p>
             </div>
           </div>
         </div>
 
-        <div>
+        <div id="center_intro">
           <div>
-            <figure>
+            <figure class="center">
               <a href="#"><img src="../images/girl.png" alt=""></a>
             </figure>
           </div>
 
           <div>
-            <h3><a href="#">Travel</a></h3>
+            <a href="#" class="intro_name">Travel</a>
           </div>
 
           <div>
-            <h1><a href="#">10 Doubts You Should Clarify About Girl</a></h1>
+            <a href="#" class="intro_title">10 Doubts You Should Clarify About Girl</a>
           </div>
 
           <div>
-            <p>October 15, 2019</p>
+            <p class="intro_name">October 15, 2019</p>
           </div>
         </div>
 
-        <div>
-          <div>
+        <div id="right_intro">
+          <div class="one_intro">
             <div>
               <figure>
                 <a href="#"><img src="../images/travel.png" alt=""></a>
@@ -174,19 +174,19 @@
             </div>
 
             <div>
-              <h3><a href="#">Food</a></h3>
+              <a href="#" class="intro_name">Food</a>
             </div>
 
             <div>
-              <h1><a href="#">A Home Success Story You’ll Never Believe</a></h1>
+              <a href="#" class="intro_title" >A Home Success Story You’ll Never Believe</a>
             </div>
 
             <div>
-              <p>October 15, 2019</p>
+              <p class="intro_name">October 15, 2019</p>
             </div>
           </div>
 
-          <div>
+          <div class="one_intro">
             <div>
               <figure>
                 <a href="#"><img src="../images/shop.png" alt=""></a>
@@ -194,15 +194,15 @@
             </div>
 
             <div>
-              <h3><a href="#">Travel</a></h3>
+              <a href="#"  class="intro_name" >Travel</a>
             </div>
 
             <div>
-              <h1><a href="#">The 13 Best Pinterest Boards for Learning About Shop</a></h1>
+              <a href="#" class="intro_title">The 13 Best Pinterest Boards for Learning About Shop</a>
             </div>
 
             <div>
-              <p>October 15, 2019</p>
+              <p class="intro_name">October 15, 2019</p>
             </div>
           </div>
         </div>
@@ -212,82 +212,82 @@
 
     <!-- Last Posts Section starts -->
     <section>
-      <div>
+      <div id="last_posts_section">
         <!-- Left Side of Last Posts Section starts -->
-        <div>
-          <div>
+        <div id="left_side_last_posts">
+          <div class="one_left_side_last_post">
             <div>
-              <figure>
+              <figure class="last_posts_section_img">
                 <img src="../images/trip.png" alt="">
               </figure>
             </div>
 
-            <div>
-              <div>
-                <h3><a href="#">Sports</a> <i class="fas fa-circle"></i> 3 Mins</h3>
+            <div class="last_posts_section_paragraph">
+              <div class="last_posts_section_subject">
+                <h3><a href="#">Sports </a><span>・</span> 3 Mins</h3>
               </div>
 
-              <div>
-                <h1>A TRIP BACK IN TIME: HOW PEOPLE TALKED ABOUT SEA 20 YEARS AGO</h1>
+              <div class="last_posts_section_title">
+                <a href="#">A TRIP BACK IN TIME: HOW PEOPLE TALKED ABOUT SEA 20 YEARS AGO</a>
               </div>
 
-              <div>
-                <h3>October 15, 2019 <i class="fas fa-circle"></i> 2 <i class="fas fa-heart"></i></h3>
+              <div class="last_posts_section_date">
+                <h3>October 15, 2019 <span>・</span> 2 <a href="#"><i class="fas fa-heart" id="heart"></i></a></h3>
               </div>
 
-              <div>
-                <p><a>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with ...</a></p>
+              <div class="last_posts_section_p">
+                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with ...</p>
               </div>
             </div>
           </div>
 
-          <div>
+          <div class="one_left_side_last_post">
             <div>
-              <figure>
+              <figure class="last_posts_section_img">
                 <img src="../images/bicycle.png" alt="">
               </figure>
             </div>
 
-            <div>
-              <div>
-                <h3><a href="#">Sports</a> <i class="fas fa-circle"></i> 1 Mins</h3>
+            <div class="last_posts_section_paragraph">
+              <div class="last_posts_section_subject">
+                <h3><a href="#">Sports</a> <span>・</span> 1 Mins</h3>
               </div>
 
-              <div>
-                <h1><a href="#">THE NEXT BIG THING IN BICYCLE</a></h1>
+              <div class="last_posts_section_title">
+                <a href="#">THE NEXT BIG THING IN BICYCLE</a>
               </div>
 
-              <div>
-                <h3>October 15, 2019 <i class="fas fa-circle"></i> 4 <i class="fas fa-heart"></i></h3>
+              <div class="last_posts_section_date">
+                <h3>October 15, 2019 <span>・</span> 4 <a href="#"><i class="fas fa-heart" id="heart"></i></a></h3>
               </div>
 
-              <div>
+              <div class="last_posts_section_p">
                 <p>You only live once, but if you do it right, once is enough.― Mae West</p>
               </div>
             </div>
           </div>
 
-          <div>
+          <div class="one_left_side_last_post">
             <div>
-              <figure>
+              <figure class="last_posts_section_img">
                 <img src="../images/coffe.png" alt="">
               </figure>
             </div>
 
-            <div>
-              <div>
-                <h3><a href="#">Sports</a> <i class="fas fa-circle"></i> 1 Mins</h3>
+            <div class="last_posts_section_paragraph">
+              <div class="last_posts_section_subject">
+                <h3><a href="#">Sports</a> <span> . </span> 1 Mins</h3>
               </div>
 
-              <div>
-                <h1><a href="#">THE 12 WORST TYPES COFFE ACCOUNTS YOU FOLLOW ON TWITTER</a></h1>
+              <div  class="last_posts_section_title">
+                <a href="#">THE 12 WORST TYPES COFFE ACCOUNTS YOU FOLLOW ON TWITTER</a>
               </div>
 
-              <div>
-                <h3>October 15, 2019 <i class="fas fa-circle"></i> 4 <i class="fas fa-heart"></i></h3>
+              <div class="last_posts_section_date">
+                <h3>October 15, 2019 <span> . </span> 4 <a href=""><i class="fas fa-heart" id="heart"></i></a></h3>
               </div>
 
-              <div>
+              <div class="last_posts_section_p">
                 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with ...</p>
               </div>
             </div>
@@ -296,28 +296,36 @@
         <!-- Left Side of Last Posts Section ends -->
 
         <!-- Right Side of Last Posts Section starts -->
-        <div>
+        <div id="right_side_last_posts">
           <div>
-            <figure>
+            <figure class="right_side_image">
               <a href="#"><img src="../images/post.png" alt=""></a>
             </figure>
           </div>
 
-          <div>
-            <div>
+          <div class="latest_post">
+            <div class="latest_post_btn">
               <div>Lates Posts</div>
             </div>
 
             <div>
-              <figure>
+              <figure class="latest_image">
                 <a href=""><img src="../images/lastPost.png" alt=""></a>
               </figure>
             </div>
 
-            <div>
-              <h1><a href="#">The Ten Steps Needed For  Putting Bag Into Action</a></h1>
+            <div class="latest_post_paragraph">
+              <a href="#">The Ten Steps Needed For  Putting Bag Into Action</a>
 
-              <h3>October 15, 2019</h3>
+              <p>October 15, 2019</p>
+            </div>
+
+            <div class="last_post_page">
+              <a href=""><span></span></a>
+              <a href=""><span></span></a>
+              <a href=""><span></span></a>
+              <a href=""><span></span></a>
+              <a href=""><span></span></a>
             </div>
           </div>
         </div>
@@ -328,8 +336,8 @@
 
     <!-- Posts and Users Section starts -->
     <section>
-      <div>
-        <div>
+      <div id="posts_users_section">
+        <div id="posts_users_section_one">
           <div>
             <figure>
               <a href="#"><img src="../images/travel.png" alt=""></a>
@@ -349,7 +357,7 @@
           </div>
         </div>
 
-        <div>
+        <div id="posts_users_section_two">
           <div>
             <figure>
               <a href="#"><img src="../images/coffe.png" alt=""></a>
@@ -414,10 +422,10 @@
     <!-- Posts and Users Section starts -->
 
     <!-- All Posts Section starts -->
-    <section>
+    <section id="all_posts_section">
       <div>
         <!-- Left Side of All Posts Section starts -->
-        <div>
+        <div id="left_side_all">
           <div>
             <div>
               <figure>
@@ -522,7 +530,7 @@
         <!-- Left Side of All Posts Section ends -->
 
         <!-- Right Side of All Posts Section starts -->
-        <div>
+        <div id="right_side_all">
           <div>
             <div>
               <figure>
@@ -615,7 +623,7 @@
   <!-- Main Section ends -->
 
   <!-- Footer Section starts -->
-  <footer>
+  <footer  id="footer">
     <div>
       <div>
         <p>2020 Betsy.</p>
