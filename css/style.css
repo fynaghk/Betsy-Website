@@ -366,9 +366,173 @@ span{
 
 #posts_users_section{
   background: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
+#posts_users_section_one{
+  width: 440px;
+}
 
+#posts_users_section_one> div{
+  margin: 10px;
+}
 
+.posts_users_section_img img{
+  width: 440px;
+}
+
+.posts_users_section_img img:hover{
+  filter: blur(2px);
+  transition: all 1s;
+}
+
+.user_img{
+  width: 20px;
+  border-radius: 50%;
+  margin: 5px;
+  margin-bottom: -5px;
+}
+
+.posts_users_section_subject h3{
+  font-weight: normal;
+  font-size: 15px;
+  color: grey;
+}
+
+.posts_users_section_subject a{
+  font-weight: normal;
+  font-size: 15px;
+  color: #df4e61;
+}
+
+.posts_users_section_subject a:hover{
+  color: grey;
+}
+
+.posts_users_section_paragraph a{
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.posts_users_section_paragraph a:hover{
+  color: grey;
+}
+
+.user_info p{
+  color: grey;
+}
+
+.username{
+  color: #df4e61;
+}
+
+.username:hover{
+  color: grey;
+}
 
 /* Posts and Users Section ends */
+
+/* All Posts Section starts */
+
+#all_posts_section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 150px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.all_posts_section_one{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.all_posts_section_img img{
+  margin: 20px;
+  width: 250px;
+}
+
+.all_posts_section_parag{
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.all_posts_section_parag> div{
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.all_posts_section_subject h3{
+  font-weight: normal;
+  font-size: 17px;
+  color: grey;
+}
+
+.all_posts_section_subject a{
+  color:#df4e61;
+}
+
+.all_posts_section_subject a:hover{
+  color: grey;
+}
+
+.all_posts_section_title a{
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.all_posts_section_title a:hover{
+  color: grey;
+}
+
+.all_posts_section_paragraph{
+  color: grey;
+}
+
+/* All Posts Section ends */
+
+/* Footer Section starts */
+
+#footer{
+  border-top: 1px dashed black;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer_paragraph p{
+  margin-top: 20px;
+  color: grey;
+}
+
+.footer_img a img{
+  width: 150px;
+}
+
+.footer_icons ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.footer_icons ul li{
+  margin: 10px;
+  list-style-type: none;
+}
+
+/* Footer Section ends */
