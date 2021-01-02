@@ -1,6 +1,6 @@
 *{
-  padding: 0%;
-  margin: 0%;
+  padding: 0px;
+  margin: 0px;
 }
 
 a{
@@ -167,7 +167,6 @@ header{
 }
 
 .one_intro{
-  margin: 10px;
   margin-bottom: 80px;
   width: 320px;
 }
@@ -206,6 +205,26 @@ header{
 #center_intro> div{
   margin: 20px;
   margin-top: 0px;
+}
+
+@media (max-width: 630px){
+  .center img{
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .center_intro{
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .center_intro> div{
+    display: block;
+    width: 200px;
+  }
+
 }
 
 /* Intro Section ends */
@@ -309,6 +328,28 @@ span{
   color: #df4e61;
 }
 
+@media (max-width: 630px){
+  #left_side_last_posts{
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+
+  .one_left_side_last_post{
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    margin-left: -20px;
+    margin-top: 30px;
+  }
+
+  .last_posts_section_img{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+}
+
 /* Left Side of Last Posts Section ends */
 
 /* Right Side of Last Posts Section starts */
@@ -391,6 +432,23 @@ span{
   background-color: black;
 }
 
+@media (max-width: 630px){
+  .right_side_image{
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: -80px;
+  }
+
+  .latest_post{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: -80px;
+  }
+}
+
 /* Right Side of Last Posts Section ends */
 /* Last Posts Section ends */
 
@@ -469,6 +527,19 @@ span{
   color: grey;
 }
 
+@media (max-width: 630px){
+  #posts_users_section_one{
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .posts_users_section_img img{
+    width: 250px;
+    margin: 20px;
+  }
+}
+
 /* Posts and Users Section ends */
 
 /* All Posts Section starts */
@@ -477,20 +548,22 @@ span{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 100px;
-  justify-content: space-between;
+  position: relative;
+  margin: 10px;
+  justify-content: space-around;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
 .all_posts_section_one{
-  width: 540px;
+  width: 600px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
   height: 200px;
-  padding: 30px;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  flex-direction: row;
 }
 
 .all_posts_section_img img{
@@ -498,7 +571,9 @@ span{
 }
 
 .all_posts_section_parag{
-  padding: 30px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
 }
 
 .all_posts_section_parag> div{
@@ -509,6 +584,28 @@ span{
   font-weight: normal;
   font-size: 17px;
   color: grey;
+}
+
+@media (max-width:630px){
+  .all_posts_section_img img{
+    display: none;
+  }
+
+  .all_posts_section_one{
+    width: 300px;
+  }
+
+  .all_posts_section_parag{
+    width: 300px;
+  }
+
+  #all_posts_section{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
 }
 
 .all_posts_section_subject a{
@@ -573,7 +670,14 @@ span{
   color: grey;
 }
 
-.footer_img a img{
+@media (max-width: 630px){
+  .footer_img img{
+    margin: 30px;
+    margin-right: 170px;
+  }
+}
+
+.footer_img img{
   width: 150px;
   margin-left: 165px;
 }
