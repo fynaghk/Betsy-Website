@@ -3,11 +3,6 @@
   margin: 0%;
 }
 
-
-img{
-  width: 200px;
-}
-
 a{
   text-decoration: none;
 }
@@ -27,12 +22,7 @@ header{
 
 /* Nav Side starts */
 
-nav{
-  margin-left: -340px;
-  margin-top: 15px;
-}
-
-nav .navbar{
+.navbar{
   margin: 10px;
   display: flex;
   flex-direction: row;
@@ -40,30 +30,72 @@ nav .navbar{
   justify-content: space-around;
 }
 
-nav .navbar li{
+.navbar li{
   margin: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.drop_menu{
-  display: none;
+.drop_home a{
+  color: black;
+  height: 30px;
 }
 
-.drop_home:hover> .drop_menu{
-  position: absolute;
-  background-color: white;
-  display: block;
-  width: 200px;
+.drop_menu{
   margin-top: 30px;
 }
 
-.drop_menu:hover{
-  position: absolute;
+.drop_down li{
+  margin: 0px;
 }
 
+.drop_home li a{
+  margin: 0px;
+  padding: 16px;
+  display: block;
+  width: 150px;
+  height: 10px;
+}
 
+.drop_home a:hover{
+  color: #df4e61;
+}
+
+.drop_menu{
+  position: absolute;
+  visibility: hidden;
+}
+
+.drop_home li:hover> a{
+  background-color: #df4e61;
+  color: white;
+}
+
+.drop_home:hover> .drop_menu{
+  background-color: white;
+  visibility: visible;
+  width: 150px;
+}
+
+.drop_menu:hover> .drop_down li{
+  color: #df4e61;
+}
+
+.sub_drop_down{
+  position: absolute;
+  display: none;
+  width: 150px;
+  margin-left: 150px;
+  background-color: white!important;
+  color: black;
+}
+
+.drop_sub:hover> .sub_drop_down{
+  display: block;
+  background-color: #df4e61;
+  color: white;
+}
 
 /* Nav Side ends */
 
@@ -445,31 +477,31 @@ span{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 100px;
   justify-content: space-between;
-  margin: 150px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
 .all_posts_section_one{
-  width: 500px;
+  width: 540px;
   display: flex;
+  height: 200px;
+  padding: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   flex-direction: row;
-  margin: 20px;
 }
 
 .all_posts_section_img img{
-  margin: 20px;
-  width: 250px;
+  width: 210px;
 }
 
 .all_posts_section_parag{
-  margin: 20px;
-  margin-left: 0px;
+  padding: 30px;
 }
 
 .all_posts_section_parag> div{
-  margin: 20px;
   margin-left: 0px;
 }
 
@@ -490,7 +522,7 @@ span{
 .all_posts_section_title a{
   color: black;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .all_posts_section_title a:hover{
@@ -498,6 +530,28 @@ span{
 }
 
 .all_posts_section_paragraph{
+  color: grey;
+}
+
+.all_posts_btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.all_posts_btn_a{
+  width: 100px;
+  border: 1px dashed black;
+  left: 50%;
+  padding: 10px;
+  text-align: center;
+  margin: 50px;
+}
+
+.all_posts_btn_a a{
+  color: black;
+}
+
+.all_posts_btn_a a:hover{
   color: grey;
 }
 
@@ -521,6 +575,7 @@ span{
 
 .footer_img a img{
   width: 150px;
+  margin-left: 165px;
 }
 
 .footer_icons ul{
